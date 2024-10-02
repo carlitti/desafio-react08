@@ -1,0 +1,100 @@
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  li img {
+    border-radius: 8px;
+  }
+  
+  li span {
+    flex: 1;
+    margin-left: 10px;
+    color: #555;
+  }
+  
+  li p {
+    flex: 2;
+    color: #777;
+    margin: 0 10px;
+  }
+  
+  li button {
+    background-color: #0c1adf;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  li button:hover {
+    background-color: #50cfe6;
+  }
+  
+  .pizza-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px; /* Añade espacio alrededor de la lista */
+  }
+  
+  .pizza-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 300px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .pizza-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .pizza-card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .pizza-card p {
+    font-size: 18px;
+    color: #555;
+    padding: 10px;
+  }
+  
+  .pizza-card button {
+    background-color: #11057c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pizza-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pizza-card:hover {
+    transform: scale(1.05);
+  }

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-size: large;
+  font-family: "Gupter", serif;
+}
+
+
+header {
+  font-family: "Gupter", serif;
+  font-size: 50px;
+}
+
+footer {
+  font-family: "Gupter", serif;
+  
+}
+
+/* Estilos específicos para el contenedor de login */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #f0f2f5; 
+}
+
+.login-box {
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 20px 20px rgba(17, 1, 1, 0.1);
+  border: 2px solid #000000;
+  width: 600px; 
+  font-family: "Montserrat", sans-serif;
+}
+
+.login-box h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;  
+}
+
+.login-box button:hover {
+  background-color: #0056b3;
+}
+
+.error-modal .modal-content {
+  border: 2px solid #dc3545;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(220, 53, 69, 0.4);
+}
+
+.success-modal .modal-content {
+  border: 2px solid #28a745;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(40, 167, 69, 0.4);
+}
+
+.modal-body {
+  font-size: 18px;
+  color: #333;
+}
+
+.modal-footer button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
